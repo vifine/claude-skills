@@ -6,6 +6,7 @@
 - `hadat-label-lock/` — скил проверки и восстановления этикеток на сгенерированных кадрах.
   - `SKILL.md` — инструкция для Claude.
   - `scripts/` — рабочие скрипты (`label_rewrap.py`, `label_finish.py`, `bottle_lock.py`, `label_restore.py`, `label_flat.py`, `label_cyl.py`, `label_quad.py`, `white_images_label_lock.py`) и `README_scripts.md` с описанием.
+  - `scripts/overlay_v17/` — прототип сборки этикетки слоями-оверлеями на чистой сцене (шот 1 видео SB, версия v17): `comp18.py`, `render11.py`, `comp17.py`. Пути в скриптах жёсткие, требуют правки перед запуском. Метод описан в `SKILL.md`, шаг 2D.
 
 ## Правила работы
 - Скрипты — единственный источник. Изменения вносятся сюда, а не в локальные копии.
